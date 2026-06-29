@@ -1,5 +1,5 @@
 
-
+SQL
 SELECT Email
 FROM Person
 GROUP BY Email
