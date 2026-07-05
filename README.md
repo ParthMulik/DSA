@@ -23,4 +23,16 @@ Looking at my everyday work into solving dsa problems.
 |  |
 | ------- |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ParthMulik/DSA/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
+## Hash Table
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/ParthMulik/DSA/tree/master/0012-integer-to-roman) |
+## Math
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/ParthMulik/DSA/tree/master/0012-integer-to-roman) |
+## String
+|  |
+| ------- |
+| [0012-integer-to-roman](https://github.com/ParthMulik/DSA/tree/master/0012-integer-to-roman) |
 <!---LeetCode Topics End-->
