@@ -14,3 +14,6 @@ public:
         return num;
     }
 };
+
+
+Solution 2 : Optimal 
