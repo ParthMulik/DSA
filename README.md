@@ -31,6 +31,7 @@ Looking at my everyday work into solving dsa problems.
 |  |
 | ------- |
 | [0012-integer-to-roman](https://github.com/ParthMulik/DSA/tree/master/0012-integer-to-roman) |
+| [0258-add-digits](https://github.com/ParthMulik/DSA/tree/master/0258-add-digits) |
 ## String
 |  |
 | ------- |
@@ -51,4 +52,12 @@ Looking at my everyday work into solving dsa problems.
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/ParthMulik/DSA/tree/master/0100-same-tree) |
+## Simulation
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/ParthMulik/DSA/tree/master/0258-add-digits) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/ParthMulik/DSA/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
