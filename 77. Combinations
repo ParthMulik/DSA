@@ -1,4 +1,5 @@
-MEDIUM
+Medium
+
 class Solution {
 public:
     vector<vector<int>> ans;
