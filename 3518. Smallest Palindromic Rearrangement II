@@ -1,4 +1,4 @@
-
+HARD
 class Solution {
 public:
     long long countWays(vector<int>& cnt, int rem, long long k) {
