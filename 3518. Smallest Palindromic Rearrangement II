@@ -1,1 +1,65 @@
 
+class Solution {
+public:
+    long long countWays(vector<int>& cnt, int rem, long long k) {
+        long long ways = 1;
+        int used = 0;
+
+        for (int c : cnt) {
+            for (int j = 1; j <= c; j++) {
+                used++;
+                ways = ways * used / j;
+
+                if (ways >= k)
+                    return k;
+            }
+        }
+
+        return ways;
+    }
+
+    string smallestPalindrome(string s, int k) {
+        int n = s.size();
+        int m = n / 2;
+
+        vector<int> cnt(26, 0);
+
+        for (int i = 0; i < m; i++)
+            cnt[s[i] - 'a']++;
+
+        string left;
+
+        for (int pos = 0; pos < m; pos++) {
+            bool found = false;
+
+            for (int c = 0; c < 26; c++) {
+                if (cnt[c] == 0)
+                    continue;
+
+                cnt[c]--;
+
+                long long ways = countWays(cnt, m - pos - 1, k);
+
+                if (ways >= k) {
+                    left += char('a' + c);
+                    found = true;
+                    break;
+                }
+
+                k -= ways;
+                cnt[c]++;
+            }
+
+            if (!found)
+                return "";
+        }
+
+        string right = left;
+        reverse(right.begin(), right.end());
+
+        if (n % 2)
+            return left + s[n / 2] + right;
+
+        return left + right;
+    }
+};
