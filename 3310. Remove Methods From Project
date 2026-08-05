@@ -1,4 +1,4 @@
-
+Medium
 class Solution {
 public:
     void dfs1(int u, vector<vector<int>>& g, vector<bool>& suspicious) {
